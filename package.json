@@ -1,0 +1,30 @@
+{
+  "name": "babelfromscratch",
+  "version": "1.0.0",
+  "description": "Proyecto para practicar from-scratch la configuración babel y webpack para crear proyectos React, Vue o de cualquier otro frameqwork con ES6",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salazarcode/BabelFromScratch.git"
+  },
+  "author": "Andrés Salazar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/salazarcode/BabelFromScratch/issues"
+  },
+  "homepage": "https://github.com/salazarcode/BabelFromScratch#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
